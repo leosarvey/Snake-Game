@@ -1,0 +1,21 @@
+.grid {
+  height: 100vmin;
+  width: 100vmin;
+  background-color: darkslategrey;
+  display: grid;
+  grid-template-columns: repeat(25, 1fr);
+  grid-template-rows: repeat(25, 1fr);
+}
+
+.snake {
+  height: 100%;
+  width: 100%;
+  background-color: lime;
+  display: block;
+}
+
+.fruit {
+  height: 100%;
+  width: 100%;
+  background-color: firebrick;
+}
